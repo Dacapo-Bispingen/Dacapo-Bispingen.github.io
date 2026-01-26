@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Das Herz Italiens</title>
+  <style>
+    body {
+      font-family: 'Cinzel , sans-serif;
+      background: #fff9f9;
+      color: #222;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+      border-bottom: 2px solid #d32f2f;
+      padding-bottom: 15px;
+    }
+    h1 {
+      color: #d32f2f;
+      font-size: 28px;
+      margin: 0;
+    }
+    .subtitle {
+      font-style: italic;
+      color: #555;
+      margin-top: 8px;
+    }
+    .category {
+      margin: 30px 0 15px 0;
+      padding-bottom: 8px;
+      border-bottom: 1px dashed #ccc;
+    }
+    .category h2 {
+      color: #c62828;
+      font-size: 22px;
+    }
+    .dish {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 12px;
+    }
+    .dish-name {
+      font-weight: bold;
+    }
+    .dish-desc {
+      font-size: 14px;
+      color: #555;
+      margin: 4px 0;
+    }
+    .price {
+      font-weight: bold;
+      color: #d32f2f;
+      white-space: nowrap;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Das Herz Italiens</h1>
+    <div class="subtitle">Im Herzen von Bispingen</div>
+  </header>
+
+  <!-- PIZZA -->
+  <div class="category">
+    <h2>🍕 Pizza (nach neapolitanischer Art)</h2>
+    
+    <div class="dish">
+      <div>
+        <div class="dish-name">Verdura</div>
+        <div class="dish-desc">San Marzano Tomaten DOP, Fior di Latte, Rosmarin-Kartoffeln, frischer Spinat, gegrillte Zucchini, Oliven, Pecorino</div>
+      </div>
+      <div class="price">15 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Parma e Rucola</div>
+        <div class="dish-desc">San Marzano Tomaten DOP, Fior di Latte, Parmaschinken DOP, Rucola, Parmesan</div>
+      </div>
+      <div class="price">17 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Salmone e Spinacci</div>
+        <div class="dish-desc">San Marzano Tomaten DOP, Fior di Latte, frischer Lachs, frischer Spinat, Kirschtomaten</div>
+      </div>
+      <div class="price">18 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Pizza Speciale</div>
+        <div class="dish-desc">San Marzano Tomaten DOP, Fior di Latte, Sardellen, schwarze Oliven, Kapern, Olivenöl</div>
+      </div>
+      <div class="price">17 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Burrata</div>
+        <div class="dish-desc">Hausgemachtes Pesto, Fior di Latte, Burrata, Rucola, Kirschtomaten, geröstete Pinienkerne</div>
+      </div>
+      <div class="price">14 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Napoli</div>
+        <div class="dish-desc">San Marzano Tomaten DOP, Fior di Latte, Sardellen, schwarze Oliven, Kapern, Olivenöl</div>
+      </div>
+      <div class="price">21 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Da Capo</div>
+        <div class="dish-desc">Rinderfilet-Streifen, Ricotta, Pinienkerne, hausgemachtes Pesto, Kirschtomaten, Rucola, Parmesan</div>
+      </div>
+      <div class="price">16 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Quattro Formaggi</div>
+        <div class="dish-desc">San Marzano Tomaten DOP, Fior di Latte, Pecorino, Gorgonzola, Büffelmozzarella DOP</div>
+      </div>
+      <div class="price">20 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Marinara</div>
+        <div class="dish-desc">San Marzano Tomaten DOP, Knoblauch, Oregano, Olivenöl</div>
+      </div>
+      <div class="price">9 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Margherita Classico</div>
+        <div class="dish-desc">San Marzano Tomaten DOP, Fior di Latte, Basilikum, Olivenöl</div>
+      </div>
+      <div class="price">12 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Salami</div>
+        <div class="dish-desc">San Marzano Tomaten DOP, Fior di Latte, Salami Napoli</div>
+      </div>
+      <div class="price">13 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Prosciutto e Funghi</div>
+        <div class="dish-desc">San Marzano Tomaten DOP, Fior di Latte, ital. Schinken, frische Champignons</div>
+      </div>
+      <div class="price">13 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Salami e Funghi</div>
+        <div class="dish-desc">San Marzano Tomaten DOP, Fior di Latte, Salami Napoli, frische Champignons</div>
+      </div>
+      <div class="price">15 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Hawaii</div>
+        <div class="dish-desc">San Marzano Tomaten DOP, Fior di Latte, ital. Schinken, Ananas</div>
+      </div>
+      <div class="price">14 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Quattro Stagioni</div>
+        <div class="dish-desc">San Marzano Tomaten DOP, Fior di Latte, ital. Schinken, frische Champignons, Shrimps, Salami Napoli</div>
+      </div>
+      <div class="price">15 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Siciliana</div>
+        <div class="dish-desc">San Marzano Tomaten DOP, Fior di Latte, Thunfisch, Zwiebeln</div>
+      </div>
+      <div class="price">14 €</div>
+    </div>
+  </div>
+
+  <!-- ANTIPIASTI / INSALATA -->
+  <div class="category">
+    <h2>🥗 Antipasti & Insalata</h2>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Insalata Caprese</div>
+        <div class="dish-desc">Büffelmozzarella DOP, Tomaten, Basilikum, Olivenöl</div>
+      </div>
+      <div class="price">14 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Pecorino all’Aglio</div>
+        <div class="dish-desc">Bunter Salat, Schafskäse, Knoblauch, Oliven, Peperoni</div>
+      </div>
+      <div class="price">7 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Carpaccio</div>
+        <div class="dish-desc">Hauchdünnes Rinderfilet, Rucola-Bett, gehobelter Parmesan, Zitrone</div>
+      </div>
+      <div class="price">15 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Vitello Tonato</div>
+        <div class="dish-desc">Kalbsrücken, Thunfischsosse, Kapern, Wildkräutersalat</div>
+      </div>
+      <div class="price">15 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Insalata Capriciosa</div>
+        <div class="dish-desc">Tomaten, Oliven, Balsamico, Olivenöl</div>
+      </div>
+      <div class="price">7 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Insalata alla Vanda</div>
+        <div class="dish-desc">Großer gemischter Salat, Thunfisch, Anchovis, Oliven, Peperoni, Hausdressing</div>
+      </div>
+      <div class="price">14 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Insalata del Contadino</div>
+        <div class="dish-desc">Großer gemischter Salat, Schafskäse, italienischer Schinken, Oliven, Peperoni, Hausdressing</div>
+      </div>
+      <div class="price">14 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Insalatino (Beilagensalat)</div>
+      </div>
+      <div class="price">4 €</div>
+    </div>
+  </div>
+
+  <!-- ZUPPA -->
+  <div class="category">
+    <h2>🍲 Zuppa (Suppen)</h2>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Crema di Pomodoro</div>
+        <div class="dish-desc">Tomatencremesuppe, Sahnehäubchen, Basilikum</div>
+      </div>
+      <div class="price">7 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Minestrone</div>
+        <div class="dish-desc">Frische italienische Gemüsesuppe, Parmesan</div>
+      </div>
+      <div class="price">7 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Stracciatella alla Romana</div>
+        <div class="dish-desc">Rinderkraftbrühe, eingerührtes Ei</div>
+      </div>
+      <div class="price">7 €</div>
+    </div>
+  </div>
+
+  <!-- PASTA -->
+  <div class="category">
+    <h2>🍝 Pasta (hausgemacht, +2 € Aufpreis)</h2>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Spaghetti all’Pomodoro</div>
+        <div class="dish-desc">Tomatensauce, Parmesan</div>
+      </div>
+      <div class="price">12 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Spaghetti/Penne al Ragù</div>
+        <div class="dish-desc">Rinderragout, Parmesan</div>
+      </div>
+      <div class="price">14 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Spaghetti Aglio Olio</div>
+        <div class="dish-desc">Knoblauch, Olivenöl, Petersilie</div>
+      </div>
+      <div class="price">12 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Spaghetti alla Carbonara</div>
+        <div class="dish-desc">Ei, Guanciale (Speck), Parmesan</div>
+      </div>
+      <div class="price">15 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Penne all’Arrabiata</div>
+        <div class="dish-desc">Pikante Tomatensauce, Oliven, Kapern, Peperoni, Knoblauch</div>
+      </div>
+      <div class="price">14 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Spaghetti con Beretti</div>
+        <div class="dish-desc">Garnelen, Tomate</div>
+      </div>
+      <div class="price">21 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Penne Gorgonzola</div>
+        <div class="dish-desc">Ital. Schinken, Gorgonzola-Sahnesauce</div>
+      </div>
+      <div class="price">16 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Linguine al Filetto di Angus</div>
+        <div class="dish-desc">Rinderfiletstreifen vom Black Angus, Pfeffer- oder Gorgonzola-Sauce</div>
+      </div>
+      <div class="price">32 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Tortelloni alla Panna</div>
+        <div class="dish-desc">Teigringe mit Käse gefüllt, ital. Schinken, Sahne</div>
+      </div>
+      <div class="price">14 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Tortelloni da Capo</div>
+        <div class="dish-desc">Teigringe mit Käse gefüllt, frischer Spinat, Pecorino, Sahne</div>
+      </div>
+      <div class="price">16 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Linguine Spinaci o Broccoli</div>
+        <div class="dish-desc">Dünne Bandnudeln, frischer Spinat oder Brokkoli, Sahne</div>
+      </div>
+      <div class="price">13 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Linguine alla Vanda</div>
+        <div class="dish-desc">Dünne Bandnudeln, frische Champignons, ital. Schinken, Sahne</div>
+      </div>
+      <div class="price">14 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Linguine da Capo</div>
+        <div class="dish-desc">Dünne Bandnudeln, frischer Lachs, frische Champignons, Sahne</div>
+      </div>
+      <div class="price">19 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Lasagne</div>
+        <div class="dish-desc">Tomatensauce, Kapern, Anchovis, Oliven, Knoblauch, Peperoni</div>
+      </div>
+      <div class="price">14 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Lasagne con Spinaci</div>
+        <div class="dish-desc">Geschichtete Nudelblätter, Rinderragout, frischer Spinat, überbacken</div>
+      </div>
+      <div class="price">15 €</div>
+    </div>
+  </div>
+
+  <!-- CARNE -->
+  <div class="category">
+    <h2>🥩 Carne (Fleisch)</h2>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Fileto di Angus (240g)</div>
+        <div class="dish-desc">Rinderfilet vom Black Angus, Pfeffer- oder Gorgonzola-Sauce, Rosmarinkartoffeln, Grillgemüse</div>
+      </div>
+      <div class="price">49 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Fileto e Scampi</div>
+        <div class="dish-desc">Rinderfilet vom Black Angus, 2 Riesenhummerkrabben, Rosmarinkartoffeln, Grillgemüse</div>
+      </div>
+      <div class="price">59 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Fileto di Agnelio</div>
+        <div class="dish-desc">Lammrücken aus Neuseeland, Champagner-Senfsauce, Rosmarinkartoffeln, Gemüse</div>
+      </div>
+      <div class="price">32 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Saltimbocca vom Kalbsrücken</div>
+        <div class="dish-desc">Kalbsrücken, Parmaschinken, Salbei, überbacken, Rosmarinkartoffeln, Grillgemüse</div>
+      </div>
+      <div class="price">32 €</div>
+    </div>
+  </div>
+
+  <!-- PESCE -->
+  <div class="category">
+    <h2>🐟 Pesce (Fisch)</h2>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Calamari Livornese</div>
+        <div class="dish-desc">Tintenfisch-Tuben, pikante Tomatensauce, gemischter Salat</div>
+      </div>
+      <div class="price">17 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Salmone</div>
+        <div class="dish-desc">Lachssteak, frische Kräuter, gemischter Salat</div>
+      </div>
+      <div class="price">29 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Salmone e Scampi</div>
+        <div class="dish-desc">Lachssteak, Hummerkrabben, frische Kräuter, gemischter Salat</div>
+      </div>
+      <div class="price">39 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Scampi all’Griglia</div>
+        <div class="dish-desc">Hummerkrabben „Black Tiger“ Wildfang vom Grill, Knoblauch, frische Kräuter, gemischter Salat</div>
+      </div>
+      <div class="price">30 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Scampi alla Cognac</div>
+        <div class="dish-desc">Hummerkrabben „Wildfang“ ohne Schale, Cognacsauce, gemischter Salat</div>
+      </div>
+      <div class="price">32 €</div>
+    </div>
+  </div>
+
+  <!-- DOLCE -->
+  <div class="category">
+    <h2>🍰 Dolce (Nachspeisen)</h2>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Tiramisu klassisch</div>
+      </div>
+      <div class="price">7 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Panna Cotta mit Mango</div>
+      </div>
+      <div class="price">7 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Crème Brûlée</div>
+      </div>
+      <div class="price">7 €</div>
+    </div>
+
+    <div class="dish">
+      <div>
+        <div class="dish-name">Fondant au Chocolat</div>
+        <div class="dish-desc">Hausgebackener Schokokuchen mit flüssigem Kern, hausgemachtes Orangen-Vanilleeis</div>
+      </div>
+      <div class="price">9,50 €</div>
+    </div>
+  </div>
+
+  <!-- BEVANDE FREDDE -->
+  <div class="category">
+    <h2>🥤 Bevande Fredde (Kalte Getränke)</h2>
+
+    <div class="dish"><div class="dish-name">Coca-Cola / Coca-Cola Light / Fanta / Sprite / Spezi</div><div class="price">4,20 €</div></div>
+    <div class="dish"><div class="dish-name">Schweppes (Bitter Lemon, Ginger Ale, Tonic Water)</div><div class="price">4,20 €</div></div>
+    <div class="dish"><div class="dish-name">Acqua Morelli (0,2 L)</div><div class="price">3,50 €</div></div>
+    <div class="dish"><div class="dish-name">Apfelsaft / Orangensaft / Bananennektar / Kirschsaft</div><div class="price">3,50 €</div></div>
+    <div class="dish"><div class="dish-name">Lütts Landlust (Apfel-, Rhabarber-, Rote Früchte-, Johanna-Schorle)</div><div class="price">3,50 €</div></div>
+    <div class="dish"><div class="dish-name">König Pilsener / Alsterwasser (0,33 L)</div><div class="price">4,20 €</div></div>
+    <div class="dish"><div class="dish-name">König Pilsener alkoholfrei (0,33 L)</div><div class="price">3,20 €</div></div>
+    <div class="dish"><div class="dish-name">Benediktiner Hefeweizen (0,5 L)</div><div class="price">5,20 €</div></div>
+    <div class="dish"><div class="dish-name">Benediktiner Hefeweizen alkoholfrei (0,5 L)</div><div class="price">5,20 €</div></div>
+  </div>
+
+  <!-- APERITIVI / LONGDRINKS -->
+  <div class="category">
+    <h2>🍹 Aperitivi & Longdrinks</h2>
+
+    <div class="dish"><div class="dish-name">Gin Tonic (Bombay / Gordon's)</div><div class="price">7,00 €</div></div>
+    <div class="dish"><div class="dish-name">Jack Daniel’s & Coca Cola</div><div class="price">8,00 €</div></div>
+    <div class="dish"><div class="dish-name">Bacardi & Coca Cola / Havana & Coca Cola</div><div class="price">7,00 €</div></div>
+    <div class="dish"><div class="dish-name">Vodka Lemon / Ferne & Coca Cola / Ramazzotti & Tonic / Heidegeist & Tonic</div><div class="price">6,50 €</div></div>
+  </div>
+
+  <!-- DIGESTIVI -->
+  <div class="category">
+    <h2>🥃 Digestivi</h2>
+
+    <div class="dish"><div class="dish-name">Martini (Bianco / Rosso / Dry)</div><div class="price">3,00 €</div></div>
+    <div class="dish"><div class="dish-name">Campari Soda / Campari Orange</div><div class="price">6,50 €</div></div>
+    <div class="dish"><div class="dish-name">Aperol Spritz / Aperol Spritz alkoholfrei</div><div class="price">7,00 €</div></div>
+    <div class="dish"><div class="dish-name">Limoncello Spritz / Limoncello Tonic</div><div class="price">6,50 €</div></div>
+    <div class="dish"><div class="dish-name">Amaretto Disaronno / Averna / Baileys / Ramazzotti / Sambuca</div><div class="price">3,00 €</div></div>
+    <div class="dish"><div class="dish-name">Grappa (Riserva / Moscato)</div><div class="price">5,00 €</div></div>
+    <div class="dish"><div class="dish-name">Vecchia Romagna Brandy / Jägermeister / Heidegeist / Limoncello</div><div class="price">3,00 €</div></div>
+    <div class="dish"><div class="dish-name">Whiskey (Johnnie Walker Red / Jack Daniel’s)</div><div class="price">5,00 €</div></div>
+    <div class="dish"><div class="dish-name">Gin (Bombay / Sapphire)</div><div class="price">5,50 €</div></div>
+  </div>
+
+  <!-- BEVANDE CALDE -->
+  <div class="category">
+    <h2>☕ Bevande Calde (Heiße Getränke)</h2>
+
+    <div class="dish"><div class="dish-name">Espresso</div><div class="price">2,50 €</div></div>
+    <div class="dish"><div class="dish-name">Espresso Doppio</div><div class="price">3,00 €</div></div>
+    <div class="dish"><div class="dish-name">Cappuccino / Caffè Latte</div><div class="price">3,50 €</div></div>
+    <div class="dish"><div class="dish-name">Cappuccino Speciale (mit Kakao)</div><div class="price">3,70 €</div></div>
+    <div class="dish"><div class="dish-name">Latte Macchiato</div><div class="price">3,70 €</div></div>
+    <div class="dish"><div class="dish-name">Milchkaffee / Café au Lait</div><div class="price">3,50 €</div></div>
+    <div class="dish"><div class="dish-name">Schokoladen-Kaffee / Andreas Special</div><div class="price">3,70 €</div></div>
+    <div class="dish"><div class="dish-name">Heiße Trinkschokolade</div><div class="price">4,00 €</div></div>
+    <div class="dish"><div class="dish-name">Tee</div><div class="price">3,00 €</div></div>
+    <div class="dish"><div class="dish-name">Heiße Milch</div><div class="price">2,50 €</div></div>
+    <div class="dish"><div class="dish-name">Espresso Corretto (mit Grappa oder Vecchia Romagna)</div><div class="price">5,00 €</div></div>
+  </div>
+
+  <footer>
+    <p>Weitere Fleisch- und Fischgerichte finden Sie auf unseren stetig wechselnden Spezialitätentafeln.<br>
+    Sprechen Sie uns gerne darauf an!</p>
+    <p><em>Gegen Aufpreis: Hausgemachte Pasta (+2 €) | Jede weitere Pizza-Zutat (+2 €)</em></p>
+  </footer>
+</body>
+</html>
